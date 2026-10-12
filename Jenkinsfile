@@ -21,10 +21,10 @@ pipeline {
         stage('Build') {
             steps {
                 dir('backend') {
-                    bat 'call npm ci'
+                    bat 'call npm ci --ignore-scripts'
                 }
                 dir('frontend') {
-                    bat 'call npm ci'
+                    bat 'call npm ci --ignore-scripts'
                     bat 'call npm run build'
                 }
             }
