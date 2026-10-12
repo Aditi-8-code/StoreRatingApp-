@@ -46,6 +46,22 @@ A modern, production-style **Full-Stack Store Rating Web Application** built wit
 
 ---
 
+## Team Members and Roles
+
+| Sr. No. | PRN | Name of Student | Role |
+|---:|---|---|---|
+| 1 | 2303022 | Vedantika Santoshkumar Bhosale | QA Engineer |
+| 2 | 2303023 | Aryan Shivaji Khambe | Developer 1 |
+| 3 | 2303024 | Sakshi Vishwanath Pawar | Docker Engineer |
+| 4 | 2303025 | Paras Mansing Thorat | Developer 2 |
+| 5 | 2303029 | Pranali Pratap Khatake | Team Lead |
+| 6 | 2303030 | Samiksha Babasaheb More | Jenkins Engineer |
+| 7 | 2303035 | Pradnya Dhanaji Mane | Developer 3 |
+| 8 | 2303037 | Sayali Satish Mali | Git/GitHub Engineer |
+| 9 | 2303039 | Aditi Suresh Sapkal | Kubernetes Engineer |
+| 10 | 2303041 | Priyanka Navnath Gejage | DevOps/SRE Engineer |
+
+
 ## 🚀 Quick Setup & Installation Guide
 
 ### Prerequisites
