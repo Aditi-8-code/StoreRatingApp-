@@ -172,3 +172,9 @@ Use the pre-seeded accounts below to test all three roles out of the box:
 ### Store Owner (`/api/owner`) — Protected (`STORE_OWNER`)
 * `GET /api/owner/dashboard`: Store details, avg rating score, rating distribution.
 * `GET /api/owner/ratings`: View customers who submitted ratings for the store.
+
+## CI/CD Pipeline (Jenkins)
+
+The `Jenkinsfile` defines the pipeline: Checkout → Build → Test → Package → Docker Build → Deploy.
+A push to `main` is picked up by Jenkins (SCM polling), which builds the app, creates the
+`store-rating-backend` Docker image and runs it on port 5000.
